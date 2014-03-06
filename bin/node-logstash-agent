@@ -63,7 +63,7 @@ else {
 var package_json_file = path.join(__dirname, '..', 'package.json');
 var version = JSON.parse(fs.readFileSync(package_json_file)).version;
 
-logger.notice('Starting node-logstasth-agent', version);
+logger.notice('Starting node-logstash-agent', version);
 
 var http_max_sockets = argv.http_max_sockets || 100;
 logger.info('Max http socket', http_max_sockets);
