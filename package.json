@@ -22,18 +22,18 @@
     "js-beautify": "1.4.x",
     "whereis": "0.0.2",
     "jshint": "2.x",
-    "istanbul": "0.1.x"
+    "istanbul": "0.1 - 0.2.6"
   },
   "scripts": {
     "test": "./test-runner.sh"
   },
   "dependencies": {
-    "log4node": "0.1.2",
-    "optimist": "0.3.4"
+    "log4node": "~0.1.2",
+    "optimist": "0.3.4 - 0.6.1"
   },
   "optionalDependencies":{
     "zmq": "2.5.1",
-    "moment": "1.7.0",
+    "moment": "~1.7.0",
     "redis": "0.8.x",
     "msgpack": "0.1.8",
     "geoip-lite": "1.1.x",
